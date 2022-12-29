@@ -185,3 +185,11 @@ if (AfsFileViewer.TryFromFile(data, out var afsViewer))
         - Fast cold startup times (~5 seconds to 0).  
         - Allows file replacement.   
         - Allows launching files not present during game launch.  
+
+## SEGA PRS Compressor
+
+!!! about "dlang-prs"
+
+    - Summary: High performance custom compressor/decompressor for SEGA's PRS compression format used since the Sega Saturn.  
+    - Release Date: 2018 [Source Code](https://github.com/Sewer56/dlang-prs)  
+    - Fastest PRS Compressor/Decompressor with best compression ratio (at time of writing).  
