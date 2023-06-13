@@ -7,6 +7,17 @@ This page lists the various *original* released general purpose libraries & tool
     Any game related library/tool will be listed under the [Games section](./index-games.md).  
     Items are shown in roughly chronological order.  
 
+## Nexus Mods (.nx) Archive Format
+
+!!! about
+
+    - Summary: High Performance Archive Format; bottlenecked by RAM.  
+    - Release Date: 2023, [Source](https://nexus-mods.github.io/NexusMods.Archives.Nx/)  
+    - Semi-SOLID archive format based on chunked ZStandard files.  
+    - Archive sizes halfway between `.zip` and `.7z` ultra; with >10GB/s extraction speed that bottlenecks any NVMe.  
+    - Open source, under GPLv3.  
+    - Written at work/on company hours.  
+
 ## Structured Binary Diff Library
 
 !!! about
