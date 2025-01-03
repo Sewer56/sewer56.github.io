@@ -157,7 +157,7 @@ It is two full time jobs, except that I only get paid for one.
 
 I share this not to glorify the workload, but to be transparent about the effort required.
 While the work is rewarding, it's important to acknowledge the challenges of balancing own projects
-with personal well-being.
+with personal well-being. I'm not very good at it.
 
 Think twice before glorifying someone like me.
 
