@@ -1,5 +1,5 @@
 site_name: Sewer's Project Index
-site_url: https://sewer56.dev/Sewer56.Index
+site_url: https://sewer56.dev
 
 markdown_extensions:
   - admonition
