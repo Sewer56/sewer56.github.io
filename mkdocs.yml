@@ -1,4 +1,4 @@
-site_name: Sewer's Project Index
+site_name: Sewer's Front Page
 site_url: https://sewer56.dev
 
 markdown_extensions:
@@ -8,11 +8,13 @@ markdown_extensions:
   - pymdownx.highlight
   - pymdownx.superfences 
   - pymdownx.tasklist
+  - pymdownx.snippets
   - def_list
   - meta
   - md_in_html
   - attr_list
   - footnotes
+  - abbr
 
 theme:
   name: material
@@ -20,7 +22,9 @@ theme:
     primary: red
     accent: red
     scheme: slate
-    
+  features:
+    - content.tooltips
+
 nav:
   - Home: index.md  
   - Software, Tools & Libraries: index-libraries.md

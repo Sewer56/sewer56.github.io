@@ -1,6 +1,11 @@
 # Libraries, Tools & Software
 
-This page lists the various *original* released general purpose libraries & tools I've created, i.e. projects where I am the main author.  Many of these libraries I actively still maintain.
+This page lists the various *original* released general purpose libraries & tools I've created, i.e. projects where I am the main author.
+Many of these libraries I actively still maintain.
+
+!!! note "More projects means more maintenance"
+
+    So I don't create new stuff at the rate I once used to >.<
 
 !!! info 
 
