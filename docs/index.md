@@ -98,7 +98,7 @@ Ever since I've mostly been focused on game related tooling centered around modd
 
 !!! info "I do modding related stuff in and out of work."
 
-Professionally, I work as a developer on the App Team at [Nexus Mods][Nexus Mods] while continuing
+Professionally, I work as a developer on the App Team at [Nexus Mods] (👈 interview) while continuing
 my personal projects that can be found here. Modding tool dev continues, on and off the clock.
 
 When I'm not working on my own stuff, I contribute to other open source projects, 
@@ -177,7 +177,7 @@ Think twice before glorifying someone like me.
 [BZip3]: https://github.com/kspalaiologos/bzip3/pull/144
 [dotnet-pr]: https://github.com/dotnet/runtime/pull/76559
 [Reloaded-II]: https://reloaded-project.github.io/Reloaded-II/
-[Nexus Mods]: https://www.nexusmods.com
+[Nexus Mods]: https://www.nexusmods.com/news/15105
 [object placement format]: https://info.sonicretro.org/SCHG:Sonic_Heroes/Object_Editing
 [Reloaded3]: https://reloaded-project.github.io/Reloaded-III/ "Coming Soon (TM), Hopefully in 2027 after 4 years of development from the ground up."
 [TCRF]: https://tcrf.net
