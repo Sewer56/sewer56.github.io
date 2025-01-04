@@ -49,7 +49,7 @@ Reading memory from an emulated GameCube game [that works with any emulator vers
     - A lot of my data mining work is [documented on TCRF](https://tcrf.net/Shadow_the_Hedgehog).  
 
 <video loop autoplay>
-  <source src="../../videos/shadow-stages.mp4" type="video/mp4">
+  <source src="../videos/shadow-stages.mp4" type="video/mp4">
 </video>
 
 An unused level 'STG9900' present only on GameCube, accessed via hacking. 
@@ -64,7 +64,7 @@ An unused level 'STG9900' present only on GameCube, accessed via hacking.
     - Did the reverse engineering work to make proper model blending & animation replacement possible.  
 
 <video loop autoplay>
-  <source src="../../videos/shadow-model.mp4" type="video/mp4">
+  <source src="../videos/shadow-model.mp4" type="video/mp4">
 </video>
 
 ## Animation Archive Repacker
@@ -76,7 +76,7 @@ An unused level 'STG9900' present only on GameCube, accessed via hacking.
     - Reverse engineering work also done from scratch.  
 
 <video loop autoplay>
-  <source src="../../videos/shadow-animation.mp4" type="video/mp4">
+  <source src="../videos/shadow-animation.mp4" type="video/mp4">
 </video>
 
 Using a modified idle animation.  

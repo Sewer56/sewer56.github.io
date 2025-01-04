@@ -265,7 +265,7 @@ Created by Sewer56, licensed under GNU LGPL V3
     - Zero Allocation.  
 
 <video loop autoplay>
-  <source src="../videos/wpf-controller.mp4" type="video/mp4">
+  <source src="./videos/wpf-controller.mp4" type="video/mp4">
 </video>
 
 [Reloaded-II](https://reloaded-project.github.io/Reloaded-II/) operated using an Xbox Controller.

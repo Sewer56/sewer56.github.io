@@ -134,7 +134,7 @@ High level API like this, allows for easy access of various game internals.
         - No culling issues. Stuff away from player character will render.  
 
 <video loop autoplay>
-  <source src="../../videos/heroes-free-camera.mp4" type="video/mp4">
+  <source src="../videos/heroes-free-camera.mp4" type="video/mp4">
 </video>
 
 ## Heroes Essentials
@@ -244,7 +244,7 @@ Multiplayer with custom aspect ratio.
     - Status: Deprecated in favour of Reloaded, features re-released as separate modular mods.  
 
 <video loop autoplay>
-  <source src="../../videos/tweakbox-features.mp4" type="video/mp4">
+  <source src="../videos/tweakbox-features.mp4" type="video/mp4">
 </video>
 
 ![](./../images/heroes-mod-loader.webp)
