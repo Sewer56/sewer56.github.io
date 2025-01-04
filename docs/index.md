@@ -163,7 +163,7 @@ Think twice before glorifying someone like me.
 
 <figure markdown="span">
   ![Image title](./images/typical-commit-graph.png)
-  <figcaption>A commit graph for a typical year. I don't really get to take breaks.</figcaption>
+  <figcaption>A commit graph for last year. I don't really get to take breaks.</figcaption>
 </figure>
 
 [gin2jb-extended]: https://forum.xda-developers.com/t/unofficial-sewers-mods-a-k-a-gin2jellybean-1-9-9-extended-rc1-2-3-7-addons.1934281/
