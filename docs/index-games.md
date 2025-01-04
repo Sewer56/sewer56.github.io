@@ -127,7 +127,7 @@ This page lists the various *original* game related libraries, modifications, re
 ## Sonic 3 Angel Island Revisited
 
 <video loop autoplay>
-  <source src="../videos/s3-air.webm">
+  <source src="./videos/s3-air.webm">
 </video>
 
 !!! about
