@@ -103,9 +103,9 @@ my personal projects that can be found here. Modding tool dev continues, on and 
 
 When I'm not working on my own stuff, I contribute to other open source projects, 
 random examples of small contributions include [BZip3], [DotNetCorePlugins], [LiteNetLib],
-[SharpGenTools], [Avalonia] and [.NET Runtime][dotnet-pr]. There are many more.
+[SharpGenTools], [Avalonia] and [.NET Runtime][dotnet-pr]. There are many, many more, I've lost track.
 
-I'll try to add a blog here with updates 🤞.
+I'll try to add a blog here with future updates 🤞.
 
 ## Why I do what I do?
 
@@ -160,6 +160,11 @@ While the work is rewarding, it's important to acknowledge the challenges of bal
 with personal well-being. I'm not very good at it.
 
 Think twice before glorifying someone like me.
+
+<figure markdown="span">
+  ![Image title](./images/typical-commit-graph.png)
+  <figcaption>A commit graph for a typical year. I don't really get to take breaks.</figcaption>
+</figure>
 
 [gin2jb-extended]: https://forum.xda-developers.com/t/unofficial-sewers-mods-a-k-a-gin2jellybean-1-9-9-extended-rc1-2-3-7-addons.1934281/
 [oxyslim]: https://forum.xda-developers.com/t/indefinitely-postponed-oxyslim-23-02-2016-2-2-2.3278169/

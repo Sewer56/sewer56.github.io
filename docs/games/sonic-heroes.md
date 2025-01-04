@@ -7,6 +7,16 @@
     - Platform: PC  
     - Release Date: 2004  
 
+## PS2 Beta Toolkit
+
+!!! about "PS2 Beta Toolkit"
+
+    - Summary: Scripts for working with PS2 Releases of Sonic Heroes.  
+    - Release Date: 2020 [Original](https://github.com/Sewer56/HeroesPS2BetaToolkit)  
+    - Used for documenting the Sep 28, 2003 prototype released on [Hidden Palace].
+        - Which contains Debug symbols useful for modding 💜.
+        - And was funded by me. (I donated 999 AUD to HiddenPalace who bought and dumped the prototype).
+
 ## ONE Archive Merger
 
 !!! about "ONE Archive Redirector"
@@ -238,3 +248,5 @@ Multiplayer with custom aspect ratio.
 </video>
 
 ![](./../images/heroes-mod-loader.webp)
+
+[Hidden Palace]: https://hiddenpalace.org/News/New_Years_2024_-_Sonic_Heroes

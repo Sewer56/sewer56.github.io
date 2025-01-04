@@ -4,6 +4,17 @@
 
     - Contains anything generic that is game related, but is generic and applies multiple games.  
 
+## SEGA PRS Compressor (2024 / Rust)
+
+!!! about "prs-rs"
+
+    - Summary: High performance custom compressor/decompressor for SEGA's PRS compression format used since the Sega Saturn.  
+    - Release Date: 2024 [Source Code](https://sewer56.dev/prs-rs/)  
+    - Fastest PRS Compressor/Decompressor with best compression ratio (at time of writing).  
+
+Rewritten in Rust to incorporate new compression/encoding tricks I learned over the years, and to
+make the library more portable. (e.g. No GC, custom allocators, etc.)
+
 ## Reloaded-II (Mod Loader)
 
 ![](./../images/reloaded.png)
@@ -186,7 +197,9 @@ if (AfsFileViewer.TryFromFile(data, out var afsViewer))
         - Allows file replacement.   
         - Allows launching files not present during game launch.  
 
-## SEGA PRS Compressor
+## SEGA PRS Compressor (2018 / D)
+
+!!! warning "Superseded by [prs-rs](#sega-prs-compressor-2024-rust)"
 
 !!! about "dlang-prs"
 

@@ -7,6 +7,11 @@
     - Platform: PC  
     - Release Date: 2004  
 
+<figure markdown="span">
+  ![Image title](../images/fo2-credits.webp){ width="700" }
+  <figcaption>Some of my mod code below is now part of the official game distribution on Steam.</figcaption>
+</figure>
+
 ## FlatOut 2 Mod Loader
 
 !!! about "FlatOut 2 Mod Loader"
@@ -28,6 +33,14 @@ Cleaned up game folder with mod, faster loads, much smaller file size:
 File size of a game mod before, and after mod loader compression + packing enhancements:  
 
 ![](./../images/flatout-2-mod-folder-2.png)
+
+### Deduplication and ZStandard Support in bfstool
+
+Forked [xNyaDev/bfstool][bfstool]; adding support for:
+
+- ZStandard compression (custom).
+- File alignment.
+- File deduplication in BFS archives. 
 
 ## FlatOut SDK
 
@@ -56,3 +69,5 @@ File size of a game mod before, and after mod loader compression + packing enhan
     - Release Date: 2022 [[Source Code]](https://github.com/Sewer56/FlatOut2.Utils.MPNameChange).  
     - Allows you to names longer than game normally allows, up to 64 characters.  
     - Can update name by exiting and re-joining lobby, game restart not required.  
+
+[bfstool]: https://github.com/Sewer56/bfstool
