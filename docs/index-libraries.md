@@ -514,7 +514,7 @@ Consists of libraries including but not limited to:
     - Release Date: 2017, [Source Code](https://github.com/Sewer56/Live-Text-Dumper).  
 
 <video loop autoplay>
-  <source src="../videos/live-text-dumper.mp4" type="video/mp4">
+  <source src="./videos/live-text-dumper.mp4" type="video/mp4">
 </video>
 
 A simple .NET program that allows you to write text to a text file in the background as if typing
