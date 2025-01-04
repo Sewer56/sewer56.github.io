@@ -1,12 +1,43 @@
 site_name: Sewer's Front Page
 site_url: https://sewer56.dev
 
+plugins:
+  - blog
+  - offline
+  - search
+  - rss:
+      match_path: blog/posts/.* 
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
+  - exclude-unused-files:
+      file_types_to_check: [ "psd", "7z", "kra" ]
+      file_types_override_mode: append
+      enabled: true
+  - exclude:
+      # Exclude the Theme's own files.
+      glob:
+        - Reloaded/Pages/*
+        - Reloaded/docs/*
+        - Reloaded/Readme.md
+        - Reloaded/LICENSE
+        - Reloaded/mkdocs.yml
+
+extra_css:
+  - Reloaded/Stylesheets/extra.css
+
 markdown_extensions:
   - admonition
   - tables
   - pymdownx.details
   - pymdownx.highlight
-  - pymdownx.superfences 
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tasklist
   - pymdownx.snippets
   - def_list
@@ -15,13 +46,16 @@ markdown_extensions:
   - attr_list
   - footnotes
   - abbr
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 theme:
   name: material
   palette:
-    primary: red
-    accent: red
-    scheme: slate
+    scheme: reloaded3-slate
   features:
     - content.tooltips
     - navigation.instant
@@ -42,4 +76,6 @@ nav:
     - Tokyo Xanadu eX+: games/tokyo-xanadu.md
     - Trails of Cold Steel: games/cold-steel.md
     - Trails in The Sky: games/trails-in-the-sky.md
+  - Blog:
+    - blog/index.md
     

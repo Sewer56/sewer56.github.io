@@ -31,7 +31,7 @@ Items within each category are shown in roughly chronological order.
 
     - Summary: Rust Bindings for LZMA-SDK (7-zip), exposing the LZMA encoder/decoder.  
     - Release Date: 2024, [Source](https://github.com/Sewer56/lzma-sdk-sys)  
-    - Used in the successor of [Nexus .nx Archive Format](#nexus-nx-archive-format) for high compression mode for file downloads.  
+    - Used in the successor of [Nexus .nx Archive Format](#c-nexus-nx-archive-format) for high compression mode for file downloads.  
     - Supports hand crafted assembly LZMA decode routines for maximum performance.  
     - Works on all platforms supported by 7z (and more).  
     - LZMA-SDK is usually quite hard to compile, especially across platforms.  
@@ -71,7 +71,7 @@ Successor currently in development during my own time.
     - Summary: Lightweight library that adds update support to your applications.  
     - Release Date: 2021, [Source](https://github.com/Sewer56/Update)  
     - Can be used for more than just main application, e.g. plugins.  
-    - Supports delta compression using [Delta Patch Generator](#delta-patch-generator) under the hood.  
+    - Supports delta compression using [Delta Patch Generator](#c-delta-patch-generator) under the hood.  
     - Supports full Semantic Versioning.  
     - Can clean up unused files from application folder after updates.  
 
@@ -520,7 +520,7 @@ Consists of libraries including but not limited to:
 A simple .NET program that allows you to write text to a text file in the background as if typing
 to a text editor. Combine with a video recorder like OBS and you can make tutorials without a microphone.  
 
-[Reloaded Core Libraries]: #reloaded-core-libraries
+[Reloaded Core Libraries]: #c-reloaded-core-libraries
 [Detours]: https://github.com/microsoft/Detours
 [Minhook]: https://github.com/TsudaKageyu/minhook
 [Flat Assembler]: https://flatassembler.net

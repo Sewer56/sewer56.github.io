@@ -10,6 +10,7 @@
 This page contains an about me, an easy to search index of a vast majority of my public,
 open source projects, as well as a small blog.  
 
+- [Blog for Progress Updates](./blog/index.md).
 - [My Open Source Software, Tools & Libraries](./index-libraries.md).  
 - [My Game Fixes and Reverse Engineering Work](./index-games.md).  
 

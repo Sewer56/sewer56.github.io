@@ -22,7 +22,7 @@ make the library more portable. (e.g. No GC, custom allocators, etc.)
 !!! about 
 
     - The most advanced .NET based Mod Loader & Manager Combo for native games.  
-    - Full [Set of Game Hacking Libraries](../index-libraries.md#reloaded-core-libraries).  
+    - Full [Set of Game Hacking Libraries](../index-libraries.md#c-reloaded-core-libraries).  
     - Full [Dedicated Wiki](https://reloaded-project.github.io/Reloaded-II/).  
     - Very High Performance.  
     - Modular And Extensible.  
