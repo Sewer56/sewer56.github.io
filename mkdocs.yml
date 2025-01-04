@@ -24,6 +24,7 @@ theme:
     scheme: slate
   features:
     - content.tooltips
+    - navigation.instant
 
 nav:
   - Home: index.md  
