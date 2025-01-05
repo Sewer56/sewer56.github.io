@@ -117,7 +117,7 @@ With the following savings:
 | kanzi | 0.32          | 8.31        |
 | 7z    | 0.14          | 3.66        |
 
-Other classic formats, BC2 (DXT2/3) and BC3 (DXT4/5) yield the same savings.
+Other classic formats, BC2 (DXT2/3) and BC3 (DXT4/5) yield very similar savings.
 
 ### Speed
 
