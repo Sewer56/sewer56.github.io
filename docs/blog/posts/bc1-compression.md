@@ -216,7 +216,7 @@ After the copy you get:
 
 !!! note "This is an oversimplification"
 
-    Modern formats will use more complex encodings as shown, but this gets the idea across.
+    Modern formats will use more complex encodings than shown, but this gets the idea across.
 
 #### Step B: Replace symbols (bytes) with a smaller number of bits.
 
