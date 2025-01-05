@@ -169,7 +169,7 @@ Each index contains one of the following values:
 - 00: Colour0
 - 01: Colour1
 - 10: `2/3 * Colour0` + `1/3 * Colour1` 
-- 11: `1/2 * Colour0` + `1/2 * Colour1`
+- 11: `1/3 * Colour0` + `2/3 * Colour1`
 
 Basically, it's 2 colours, and we mix them together.
 
