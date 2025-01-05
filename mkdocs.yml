@@ -59,6 +59,7 @@ theme:
   features:
     - content.tooltips
     - navigation.instant
+  custom_dir: overrides
 
 nav:
   - Home: index.md  

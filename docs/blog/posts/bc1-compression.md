@@ -1,5 +1,6 @@
 ---
 date: 2025-01-05
+comments: true
 categories:
   - compression
   - dds
