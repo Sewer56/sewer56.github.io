@@ -25,6 +25,17 @@ Items within each category are shown in roughly chronological order.
 
 ## Compression & Archiving
 
+### [Rust] Lossless Transform Utils: Check if Data is More Compressible
+
+!!! about "About `lossless-transform-utils`"
+
+    - Summary: Quickly determine which file/data is more compressible.  
+    - Release Date: 2025, [Source](https://github.com/Sewer56/lossless-transform-utils)  
+    - Idea is you can rearrange existing data to make it more compressible.  
+        - This library makes it possible to determine if the rearrangement is worthwhile! 
+    - Used in [dxt-lossless-transform] to determine which BC7 'modes' (file chunks) are better rearranged.  
+    - Used in WIP successor of [Nexus .nx Archive Format](#c-nexus-nx-archive-format) to determine if to apply a transform.  
+
 ### [Rust] LZMA-SDK Bindings
 
 !!! about "About `lzma-sdk-sys`"
@@ -535,3 +546,4 @@ to a text editor. Combine with a video recorder like OBS and you can make tutori
 [publish]: https://github.com/Reloaded-Project/devops-publish-action
 [rust-test-and-coverage]: https://github.com/Reloaded-Project/devops-rust-test-and-coverage
 [rust-lightweight-binary]: https://github.com/Reloaded-Project/devops-rust-lightweight-binary
+[dxt-lossless-transform]: https://github.com/Sewer56/dxt-lossless-transform
