@@ -1,7 +1,6 @@
 ---
 date: 2025-01-15
 comments: true
-draft: true
 categories:
   - Compression
   - Texture Compression
