@@ -2,10 +2,9 @@
 date: 2025-01-05
 comments: true
 categories:
-  - compression
-  - dds
-  - dxt
-  - decode
+  - Compression
+  - Texture Compression
+  - Texture Compression in Nx2.0
 ---
 
 # Shrinking Old Game Texture Sizes by 10%, at ~60GB/s
@@ -14,7 +13,7 @@ categories:
 
 !!! info "Without a loss in quality."
 
-Part 1 of `Texture Compression in Nx2.0`.
+Part 1 of [Texture Compression in Nx2.0 series][compression-nx20] series.
 
 So I'm in the process of building an [archive format] (👈 WIP) suitable for game modding as part
 of the [Reloaded3] project.
@@ -523,3 +522,4 @@ It is a heavy work in progress currently, and is not finalized code.
 [Russian Journal]: https://sv-journal.org/2014-1/06/en/index.php?lang=en
 [dxt-lossless-transform]: https://github.com/Sewer56/dxt-lossless-transform
 [unroll the loop]: https://en.wikipedia.org/wiki/Loop_unrolling#Simple_manual_example_in_C
+[compression-nx20]: ../category/texture-compression-in-nx20.md

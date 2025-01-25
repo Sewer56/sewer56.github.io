@@ -2,7 +2,10 @@ site_name: Sewer's Front Page
 site_url: https://sewer56.dev
 
 plugins:
-  - blog
+  - blog:
+      blog_toc: true
+      archive_toc: true
+      categories_toc: true
   - offline
   - search
   - rss:
