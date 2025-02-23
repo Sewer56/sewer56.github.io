@@ -12,7 +12,7 @@ categories:
 
 !!! info "Will my transform make data more compressible?"
 
-Part 3 of [Texture Compression in Nx2.0 series][compression-nx20] series.
+Part 4 of [Texture Compression in Nx2.0 series][compression-nx20] series.
 
 <!-- more -->
 
