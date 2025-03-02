@@ -52,6 +52,8 @@
         "Soundtrax",
         "speedrun",
         "TCRF",
+        "texel",
+        "texels",
         "Tweakbox",
         "unbootable",
         "unmodded",
@@ -60,7 +62,8 @@
         "usvfs",
         "viewports",
         "xdelta",
-        "Xperia"
+        "Xperia",
+        "zstd"
     ],
     "cSpell.language": "en,en-GB"
 }

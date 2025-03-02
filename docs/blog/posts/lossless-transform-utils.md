@@ -11,7 +11,7 @@ categories:
 
 !!! info "Will my transform make data more compressible?"
 
-Part 2 of [Texture Compression in Nx2.0 series][compression-nx20] series.
+Part 2 of [Texture Compression in Nx2.0][compression-nx20] series.
 
 In my [previous post in the series], I've demonstrated a recipe for making BC1-BC3 texture data more
 compressible, ~10% saving at a blazing ~60GB/s on the single thread.

@@ -13,7 +13,7 @@ categories:
 
 !!! info "Without a loss in quality."
 
-Part 1 of [Texture Compression in Nx2.0 series][compression-nx20] series.
+Part 1 of [Texture Compression in Nx2.0][compression-nx20] series.
 
 So I'm in the process of building an [archive format] (👈 WIP) suitable for game modding as part
 of the [Reloaded3] project.
