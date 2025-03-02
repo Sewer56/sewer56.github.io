@@ -286,21 +286,21 @@ split_colors: Compare regular interleaved colour format `colors` against their s
   Comp (est/zstd): (4337413/3498364)
   Ratio (est/zstd): (98.57163148128578/98.06824536936458)
   Diff (est/zstd): (-62851/-68911)
+  Zstd Ratio Statistics:
+  * min: 0.937, Q1: 0.963, median: 0.979, Q3: 1.002, max: 1.161, IQR: 0.038, mean: 0.985 (n=125)
 ```
 
 According to the split comparison, on average, separating the 2 colour channels produces a file
-that is 98.06% of the size, compared to keeping the colours together.
+that is 98.5% of the size, compared to keeping the colours together. And a median of 97.9% of the
+size.
 
-However given that the colours account for only `26.58%` of the final file(1), the difference is closer to
-0.5% of the final file size.
-{ .annotate }
-
-1.  Search (Ctrl+F) this!! You'll understand.
+This is a 0.5% reduction in total file size after compression roughly, once we factor in the much
+less compressible indices.
 
 !!! question "Only 0.5% of final file? Is this really beneficial?"
 
-    ***YES!!*** Sometimes even 0% can be a ***great*** result, it's a strong indicator that there's
-    files where this split is both better and worse.
+    ***YES!!*** Sometimes even a mean of 0% can be a ***great*** result!!
+    Look at the `min` and `Q1` values!!
 
 Let's demonstrate with a graph!
 
@@ -309,10 +309,10 @@ Let's demonstrate with a graph!
   <figcaption>A slice of a generated plot. Comparison (black) shows is ratio of split colours relative to base group (grouped colours).</figcaption>
 </figure>
 
-***Some files produce smaller!!*** As much as 5% even in this short slice!!
+***Use the extra split when the files are smaller!!***
 
-The average may be around 2%, but you ***have the option*** of picking only the files where the
-transform is beneficial!! We're cooking now!
+If you're optimizing for compression ratio only (e.g. file downloads), then always apply if smaller.
+Otherwise, only apply if the difference is significant enough as to not outweigh decompression speed.
 
 ## Adding a Custom Comparison
 
@@ -657,7 +657,7 @@ struct-compression-analyzer = "0.1.0"
 
 Example usage:
 
-```rust no_run
+```rust
 use struct_compression_analyzer::results::PrintFormat;
 use struct_compression_analyzer::schema::Schema;
 use struct_compression_analyzer::analyzer::SchemaAnalyzer;
