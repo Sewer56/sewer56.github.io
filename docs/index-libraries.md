@@ -25,6 +25,17 @@ Items within each category are shown in roughly chronological order.
 
 ## Compression & Archiving
 
+### [Rust] Struct Compression Analyzer
+
+!!! about "About `struct-compression-analyzer`"
+
+    - Summary: Create and Test 'lossless transforms' that reorganize binary data for maximum compression efficiency.  
+    - Release Date: 2025, [Source](https://github.com/Sewer56/struct-compression-analyzer)  
+    - Idea is you can rearrange existing data to make it more compressible.  
+        - This library makes lets you define and test transforms with `.yaml`.  
+    - Used in [dxt-lossless-transform] to determine which BC7 'modes' (file chunks) are better rearranged.  
+    - Used in WIP successor of [Nexus .nx Archive Format](#c-nexus-nx-archive-format) to determine if to apply a transform.  
+
 ### [Rust] Lossless Transform Utils: Check if Data is More Compressible
 
 !!! about "About `lossless-transform-utils`"
