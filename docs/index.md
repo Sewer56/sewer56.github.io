@@ -3,6 +3,12 @@
 	<img src="./images/icon.png" Width="200" /><br/>
 	<strong>A software dev by day and game modder/hacker by night.</strong>
     <p>Find all of my stuff here.</p>
+    <p>
+        <a href="https://bsky.app/profile/sewer56.dev" target="_blank" title="BlueSky"><img src="./images/bluesky.svg" width="32" height="32" alt="BlueSky"></a>&nbsp;&nbsp;
+        <a href="https://github.com/Sewer56" target="_blank" title="GitHub"><img src="./images/github.svg" width="32" height="32" alt="GitHub"></a>&nbsp;&nbsp;
+        <a href="https://steamcommunity.com/id/sewer56" target="_blank" title="Steam"><img src="./images/steam.svg" width="32" height="32" alt="Steam"></a>&nbsp;&nbsp;
+        <a href="https://www.youtube.com/@sewer56lol" target="_blank" title="YouTube"><img src="./images/youtube.svg" width="32" height="32" alt="YouTube"></a>
+    </p>
 </div>
 
 # About
