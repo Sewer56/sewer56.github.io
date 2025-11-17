@@ -9,14 +9,14 @@ plugins:
   - offline
   - search
   - rss:
-      match_path: blog/posts/.* 
+      match_path: blog/posts/.*
       date_from_meta:
         as_creation: date
       categories:
         - categories
         - tags
   - exclude-unused-files:
-      file_types_to_check: [ "psd", "7z", "kra" ]
+      file_types_to_check: ["psd", "7z", "kra"]
       file_types_override_mode: append
       enabled: true
   - exclude:
@@ -36,6 +36,7 @@ markdown_extensions:
   - tables
   - pymdownx.details
   - pymdownx.highlight
+  - pymdownx.blocks.caption
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -65,21 +66,20 @@ theme:
   custom_dir: overrides
 
 nav:
-  - Home: index.md  
+  - Home: index.md
   - Software, Tools & Libraries: index-libraries.md
-  - Games: 
-    - Index: index-games.md
-    - Common/General: games/common.md
-    - Bloons TD 6: games/btd6.md
-    - Flatout 2: games/flatout-2.md
-    - Persona 3/4/5 PC: games/persona-pc.md
-    - Shadow The Hedgehog: games/shadow-the-hedgehog.md
-    - Sonic Heroes: games/sonic-heroes.md
-    - Sonic Riders: games/sonic-riders.md
-    - Sonic 3 A.I.R.: games/sonic-3-air.md
-    - Tokyo Xanadu eX+: games/tokyo-xanadu.md
-    - Trails of Cold Steel: games/cold-steel.md
-    - Trails in The Sky: games/trails-in-the-sky.md
+  - Games:
+      - Index: index-games.md
+      - Common/General: games/common.md
+      - Bloons TD 6: games/btd6.md
+      - Flatout 2: games/flatout-2.md
+      - Persona 3/4/5 PC: games/persona-pc.md
+      - Shadow The Hedgehog: games/shadow-the-hedgehog.md
+      - Sonic Heroes: games/sonic-heroes.md
+      - Sonic Riders: games/sonic-riders.md
+      - Sonic 3 A.I.R.: games/sonic-3-air.md
+      - Tokyo Xanadu eX+: games/tokyo-xanadu.md
+      - Trails of Cold Steel: games/cold-steel.md
+      - Trails in The Sky: games/trails-in-the-sky.md
   - Blog:
-    - blog/index.md
-    
+      - blog/index.md
