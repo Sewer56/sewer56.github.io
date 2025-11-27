@@ -176,6 +176,17 @@ Created by Sewer56, licensed under GNU LGPL V3
 
 ## General Purpose Libraries
 
+### [Rust] Pointer Utilities
+
+!!! about "ptr-utils"
+
+    - Summary: Ergonomic unaligned pointer read/write operations for Rust.  
+    - Release Date: July 2025, [Source](https://github.com/Sewer56/ptr-utils)  
+    - Eliminates repetitive `as *mut T` / `as *const T` casts.  
+    - Provides `UnalignedRead` and `UnalignedWrite` traits for primitives at byte offsets.  
+    - Works with any pointer type, not just `*u8`.  
+    - `no_std` compatible.  
+
 ### [Rust] Lightweight Memory Map
 
 !!! about "lightweight-memory-map"
