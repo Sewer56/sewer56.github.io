@@ -240,6 +240,16 @@ Created by Sewer56, licensed under GNU LGPL V3
     - [rust-lightweight-binary]: Builds and test Rust binaries; with advanced features like PGO, Cross Compilation, Self-Built `std` etc.  
     
 
+### [Nix] Rust Windows GNU Helper Flake
+
+!!! about "rust-windows-gnu-helper-flake"
+
+    - Summary: Nix flake that fixes cross-compilation for Windows GNU targets on NixOS.  
+    - Release Date: October 2025, [Source](https://github.com/Sewer56/rust-windows-gnu-helper-flake)  
+    - Enables testing Windows binaries with your local Wine version using `cargo test --target x86_64-pc-windows-gnu`.  
+    - Provides MinGW toolchain and correct `RUSTFLAGS_*` environment variables.  
+    - Useful when testing against specific Wine versions instead of the outdated Wine in `cross`.  
+
 ### [Rust] Nanokit: Code Size / Perf Optimization
 
 !!! about "nanokit"
