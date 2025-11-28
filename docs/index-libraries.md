@@ -176,6 +176,16 @@ Created by Sewer56, licensed under GNU LGPL V3
 
 ## General Purpose Libraries
 
+### [Nix] Rust Windows GNU Helper Flake
+
+!!! about "rust-windows-gnu-helper-flake"
+
+    - Summary: Nix flake that fixes cross-compilation for Windows GNU targets on NixOS.  
+    - Release Date: October 2025, [Source](https://github.com/Sewer56/rust-windows-gnu-helper-flake)  
+    - Enables testing Windows binaries with your local Wine version using `cargo test --target x86_64-pc-windows-gnu`.  
+    - Provides MinGW toolchain and correct `RUSTFLAGS_*` environment variables.  
+    - Useful when testing against specific Wine versions instead of the outdated Wine in `cross`.  
+
 ### [Rust] Pointer Utilities
 
 !!! about "ptr-utils"
@@ -237,18 +247,9 @@ Created by Sewer56, licensed under GNU LGPL V3
     - [rust-cbindgen]: Generates C/C++ bindings for Rust during CI/CD.  
     - [rust-c-library-to-dotnet]: Generates C# bindings for Rust during CI/CD.  
     - [rust-test-and-coverage]: Runs unit tests for Rust projects, including coverage, cross-compilation, custom toolchain, build result caching and more.  
-    - [rust-lightweight-binary]: Builds and test Rust binaries; with advanced features like PGO, Cross Compilation, Self-Built `std` etc.  
+    - [rust-lightweight-binary]: Builds and test Rust binaries; with advanced features like PGO, Cross Compilation, Self-Built `std` etc.
+    - [rust-test-in-latest-wine]: Runs Rust unit tests inside latest Wine versions with MSVC target support via cargo-xwin.
     
-
-### [Nix] Rust Windows GNU Helper Flake
-
-!!! about "rust-windows-gnu-helper-flake"
-
-    - Summary: Nix flake that fixes cross-compilation for Windows GNU targets on NixOS.  
-    - Release Date: October 2025, [Source](https://github.com/Sewer56/rust-windows-gnu-helper-flake)  
-    - Enables testing Windows binaries with your local Wine version using `cargo test --target x86_64-pc-windows-gnu`.  
-    - Provides MinGW toolchain and correct `RUSTFLAGS_*` environment variables.  
-    - Useful when testing against specific Wine versions instead of the outdated Wine in `cross`.  
 
 ### [Rust] Nanokit: Code Size / Perf Optimization
 
@@ -578,4 +579,5 @@ to a text editor. Combine with a video recorder like OBS and you can make tutori
 [publish]: https://github.com/Reloaded-Project/devops-publish-action
 [rust-test-and-coverage]: https://github.com/Reloaded-Project/devops-rust-test-and-coverage
 [rust-lightweight-binary]: https://github.com/Reloaded-Project/devops-rust-lightweight-binary
+[rust-test-in-latest-wine]: https://github.com/Reloaded-Project/devops-rust-test-in-latest-wine
 [dxt-lossless-transform]: https://github.com/Sewer56/dxt-lossless-transform
