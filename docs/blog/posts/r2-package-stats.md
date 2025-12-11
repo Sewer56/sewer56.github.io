@@ -169,6 +169,11 @@ No super serious conclusions here, I just figured this data was too cool not to 
 This specific dataset is only Reloaded-II's , but you'll find that on larger sets,
 say, the entirety of a modding website; you'll find the file size and count patterns to be quite similar. 
 
+## Extra Links
+
+You can find the raw data [here](./assets/mod-stats+analysis.7z).  
+The code that was used to generate it is available in the 'research' folder of [the new archive format](https://github.com/Sewer56/sewer56-archives-nx).
+
 [Reloaded3]: https://reloaded-project.github.io/Reloaded-III/
 [Reloaded-II]: https://github.com/Reloaded-Project/Reloaded-II
 [Reloaded-II.Index]: https://github.com/Reloaded-Project/Reloaded-II.Index
