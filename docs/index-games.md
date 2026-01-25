@@ -62,6 +62,21 @@ This page lists the various *original* game related libraries, modifications, re
     - VSync override.
     - FPS limit override.
 
+[Dedicated Game Page](./games/omd2.md).
+
+## Orcs Must Die 3
+
+![](./images/omd3.webp)
+
+!!! about
+
+    - PC Game, 2020.
+    - FOV and aspect ratio fixes for ultrawide.
+    - Additional FOV slider.
+    - HUD centering support.
+
+[Dedicated Game Page](./games/omd3.md).
+
 ## Persona 3/4/5 PC
 
 ![](./images/p5r.png)
