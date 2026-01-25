@@ -47,20 +47,35 @@ This page lists the various *original* game related libraries, modifications, re
 
 [Dedicated Game Page](./games/flatout-2.md).  
 
+## Orcs Must Die 2
+
+![](./images/omd2.webp)
+
+!!! about
+
+    - PC Game, 2012.
+    - Resolution override support.
+    - Window docking and positioning.
+    - D3D9Ex upgrade for better performance.
+    - Ultrawide aspect ratio fix.
+    - FOV slider.
+    - VSync override.
+    - FPS limit override.
+
 ## Persona 3/4/5 PC
 
 ![](./images/p5r.png)
 
 !!! about
 
-    - PC Games, 2021/2022.  
+    - PC Games, 2021/2022.
     - Created [Persona Essentials](https://github.com/Sewer56/p5rpc.modloader), the [Reloaded-II](https://reloaded-project.github.io/Reloaded-II/) based mod loading solution for Persona Ports.  
         - Supports replacing archives without repacking archives.  (CRI API Hook)
         - Supports replacing music archives inside archives without repacking.  (File Emulation)
-        - Supports automatic merging of `.tbl` binary files to combine mods.  
-        - Skip game intro/fast boot.  
-        - Toggle pause on focus loss.  
-    - A lot of contributions to community created mods.  
+        - Supports automatic merging of `.tbl` binary files to combine mods.
+        - Skip game intro/fast boot.
+        - Toggle pause on focus loss.
+    - A lot of contributions to community created mods.
 
 ## Shadow The Hedgehog
 
@@ -169,8 +184,8 @@ Everyone can enjoy them, even with an unmodded client 💜.
 !!! about
 
     - PC Game, 2014.  
-    - Reverse Engineered & Wrote Converter for Textures and Sprite Animations [(Source)](https://github.com/Sewer56/Sen-no-Kiseki-PKG-Sharp).  
-    - This applies to all games in series (i.e. SC [2016] and 3rd [2017] too).  
+    - Reverse Engineered & Wrote Converter for Textures and Sprite Animations [(Source)](https://github.com/Sewer56/Sen-no-Kiseki-PKG-Sharp).
+    - This applies to all games in series (i.e. SC [2016] and 3rd [2017] too).
 
 ![](./images/sora-estelle.gif)
 

@@ -180,11 +180,24 @@ Reading info from a custom ADX with ID3 support.
 
 ```csharp
 var data = File.ReadAllBytes(afsFilePath);
-if (AfsFileViewer.TryFromFile(data, out var afsViewer)) 
+if (AfsFileViewer.TryFromFile(data, out var afsViewer))
 {
 	// Do stuff. This easy to use!
 };
 ```
+
+### .AFS Filesystem Hook
+
+!!! warning "Deprecated. Superseded by [File Emulation Framework](#file-emulation-framework) for .AFS archive support"
+
+!!! about "AfsFsRedir.ReloadedII"
+
+    - Summary: Windows filesystem hook for handling CRI .AFS archives.
+    - Release Date: 2019 [[Source Code]](https://github.com/Sewer56/AfsFsRedir.ReloadedII).
+    - Features:
+        - Allows adding/replacing files in AFS archives without repacking
+        - Hot reload support for CRI games using older AFS format
+        - Experimental implementation of archive emulation for AFS
 
 ### CRI FileSystem Hook
 

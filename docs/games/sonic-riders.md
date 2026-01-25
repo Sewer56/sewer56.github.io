@@ -25,10 +25,25 @@
         - Lots of debug tools & file format editors.  
         - and many more... 
 
-Online Multiplayer:  
+Online Multiplayer:
 ![](./../images/riders-online-multiplayer.png)
 
-Gear Editors:  
+Gear Editors:
+![](./../images/riders-tweakbox-editors.png)
+
+## Riders Tweakbox API
+
+!!! about "Riders Tweakbox API"
+
+    - Summary: Web API providing server browser and race data tracking for online multiplayer.
+    - Release Date: 2021 [Source Code](https://github.com/Sewer56/Riders.Tweakbox.API).
+    - Features:
+        - Server browser
+        - Race data tracking and statistics
+        - REST API for mod integration
+        - Real-time multiplayer status updates
+
+## Riders Hacking Tools (& Wiki)
 ![](./../images/riders-tweakbox-editors.png)
 
 ## Riders Hacking Tools (& Wiki)

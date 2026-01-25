@@ -395,6 +395,36 @@ Screenshot of default configurator application (embeddable in your program) with
 
 Includes styles for almost every control in WPF and fits in under 500kB, including space taken by custom font. Supports extra theming, animated window borders, custom controls, animations and more.
 
+## Development Utilities
+
+!!! info
+
+    Tools and utilities for software development and automation.
+
+### [Rust] Template Upgrade Notifier
+
+!!! about "template-upgrade-notifier"
+
+    - Summary: Scans GitHub repositories for outdated template based projects, and attempts LLM-powered auto-fix pull requests to migrate projects to newer versions.
+    - Release Date: 2026, [Source](https://github.com/Sewer56/template-upgrade-notifier).
+        - Powered by [LLM Coding Tools](#rust-llm-coding-tools) 
+
+### [Rust] LLM Coding Tools
+
+!!! about "llm-coding-tools"
+
+    - Summary: Rust implementations of standard LLM coding tools (Read, Write, Edit, Glob, Grep, Bash, WebFetch, Todo) for building AI-powered development agents.
+    - Release Date: 2026, [Source](https://github.com/Sewer56/llm-coding-tools).
+    - For embedding LLMs into external software the bloat of 300MB+ RAM coding tools (e.g. OpenCode, Claude Code, etc.)
+      - Will use in Discord bot in future.
+
+### [Rust] CRLF to LF Conversion Library
+
+!!! about "crlf-to-lf-inplace"
+
+    - Summary: Fast in-place (zero allocation) line ending conversion for Rust strings.
+    - Release Date: 2026, [Source](https://github.com/Sewer56/crlf-to-lf-inplace).
+
 ## Android ROMs & Friends
 
 ### HalogenOS: Art
@@ -540,29 +570,61 @@ Consists of libraries including but not limited to:
 
 !!! info "Items which don't fit into any of the above categories"
 
+### [Rust] rgbcx Bindings (Research)
+
+!!! about "rgbcx-sys"
+
+    - Summary: Rust FFI bindings to rgbcx (BC1-BC5 decoder/encoder) used for fuzz testing texture decoder implementations.
+    - Release Date: 2025, [Source](https://github.com/Sewer56/rgbcx-sys).
+    - Fuzz testing only; not suitable for production use.
+
+### [Rust] Nexus Mods Batch Downloader (Research)
+
+!!! about "nexus-gql"
+
+    - Summary: GraphQL API client for Nexus Mods with batch downloading capabilities.
+    - Release Date: 2025, [Source](https://github.com/Sewer56/nexus-gql).
+    - Research tool used to gather 411,590 texture files totaling 1.85TB from Skyrim SE mods for testing [dxt-lossless-transform].
+
+### [Rust] Audio Splitter
+
+!!! about "pw-splitter"
+
+    - Summary: TUI for splitting PipeWire audio into independent recording and listening paths.
+    - Release Date: 2025, [Source](https://github.com/Sewer56/pw-splitter).
+    - Enables recording game audio at full volume without affecting local playback volume.
+
 ### MkDocs Wiki Themes
 
-![Image title](./images/wiki-themes.webp)
+![Wiki Themes](./images/wiki-themes.webp)
 
 !!! about "Reloaded-II, Reloaded3 and Nexus Wiki Themes"
 
-    - Summary: Themes for MkDocs. You're looking at one of them right now.  
-    - Released in 2023.  
-    - Available here, [Reloaded Theme] & [Nexus Theme].  
+    - Summary: Themes for MkDocs. You're looking at one of them right now.
+    - Release Date: 2023.
+    - Available here, [Reloaded Theme] & [Nexus Theme].
 
 ### [C#] Live Text Dumper: YouTube Like it's 2009
 
 !!! about
 
-    - Summary: Record YouTube tutorials without a microphone.  
-    - Release Date: 2017, [Source Code](https://github.com/Sewer56/Live-Text-Dumper).  
+    - Summary: Record YouTube tutorials without a microphone.
+    - Release Date: 2017, [Source Code](https://github.com/Sewer56/Live-Text-Dumper).
 
 <video loop autoplay>
   <source src="./videos/live-text-dumper.mp4" type="video/mp4">
 </video>
 
 A simple .NET program that allows you to write text to a text file in the background as if typing
-to a text editor. Combine with a video recorder like OBS and you can make tutorials without a microphone.  
+to a text editor. Combine with a video recorder like OBS and you can make tutorials without a microphone.
+
+### [C#] Linux Brightness Control (Throwaway)
+
+!!! about "NetBrightnessControl"
+
+    - Summary: Linux brightness control utility for Intel-based laptops.
+    - Release Date: 2017, [Source](https://github.com/Sewer56/NETBrightnessControl).
+    - Throwaway utility for controlling display brightness programmatically.
 
 [Reloaded Core Libraries]: #c-reloaded-core-libraries
 [Detours]: https://github.com/microsoft/Detours
