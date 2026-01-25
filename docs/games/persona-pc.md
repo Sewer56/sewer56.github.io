@@ -1,4 +1,4 @@
-![](./../images/p5r.png)
+![](./../images/p5r.webp)
 
 !!! about
 

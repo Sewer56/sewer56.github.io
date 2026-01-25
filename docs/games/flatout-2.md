@@ -1,6 +1,6 @@
 # FlatOut 2
 
-![](./../images/fo2.png)
+![](./../images/fo2.webp)
 
 !!! info
 
@@ -28,11 +28,11 @@
 
 Cleaned up game folder with mod, faster loads, much smaller file size:  
 
-![](./../images/flatout-2-mod-folder.png)
+![](./../images/flatout-2-mod-folder.webp)
 
 File size of a game mod before, and after mod loader compression + packing enhancements:  
 
-![](./../images/flatout-2-mod-folder-2.png)
+![](./../images/flatout-2-mod-folder-2.webp)
 
 ### Deduplication and ZStandard Support in bfstool
 
@@ -59,7 +59,7 @@ Forked [xNyaDev/bfstool][bfstool]; adding support for:
     - Displays current stage, mode, multiplayer lobby, custom stages and cars.  
     - Supports Discord's Join and Invite Features.  
 
-![](./../images/flatout-discord-rpc.png)
+![](./../images/flatout-discord-rpc.webp)
 
 ## Multiplayer Name Changer
 

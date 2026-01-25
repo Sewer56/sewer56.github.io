@@ -1,6 +1,6 @@
 # Trails of Cold Steel
 
-![](../images/sen-no-kiseki.png)
+![](../images/sen-no-kiseki.webp)
 
 !!! about
 

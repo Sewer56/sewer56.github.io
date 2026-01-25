@@ -1,6 +1,6 @@
 <div align="center">
 	<h1>Sewer's Front Page</h1>
-	<img src="./images/icon.png" Width="200" /><br/>
+	<img src="./images/icon.webp" Width="200" /><br/>
 	<strong>A software dev by day and game modder/hacker by night.</strong>
     <p>Find all of my stuff here.</p>
     <p>
@@ -80,7 +80,7 @@ later [OxySlim][oxyslim] for the OnePlus 2. I even contributed to [halogenOS][ha
 primarily providing artwork.
 
 <figure markdown="span">
-  ![Image title](./images/oxyslim.png){ width="700" }
+  ![Image title](./images/oxyslim.webp){ width="700" }
   <figcaption>One of my few Android projects from my teenage days.</figcaption>
 </figure>
 
@@ -140,7 +140,7 @@ It's a unique and engaging way to learn software development, but the barrier to
 intimidatingly high, ***especially*** for niche games without established modding communities.
 
 <figure markdown="span">
-  ![Image title](./images/reloaded.png){ width="100" }
+  ![Image title](./images/reloaded.webp){ width="100" }
   <figcaption>I made the 'Reloaded' suite to give small, unknown games and modders a chance.</figcaption>
 </figure>
 
@@ -169,7 +169,7 @@ with personal well-being. I'm not very good at it.
 Think twice before glorifying someone like me.
 
 <figure markdown="span">
-  ![Image title](./images/typical-commit-graph.png)
+  ![Image title](./images/typical-commit-graph.webp)
   <figcaption>A commit graph for last year. I don't really get to take breaks.</figcaption>
 </figure>
 

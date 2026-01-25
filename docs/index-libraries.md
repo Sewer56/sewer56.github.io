@@ -97,7 +97,7 @@ Successor currently in development during my own time.
     - Supports full Semantic Versioning.  
     - Can clean up unused files from application folder after updates.  
 
-![](./images/delta-patch-generator.png)
+![](./images/delta-patch-generator.webp)
 
 Example: [Reloaded-II](https://reloaded-project.github.io/Reloaded-II/) update shipped using delta compression. 
 
@@ -117,7 +117,7 @@ Example: [Reloaded-II](https://reloaded-project.github.io/Reloaded-II/) update s
     - Patches 2GiB ISO in ~3 seconds on typical machine in 2021.  
     - Can play `.xm` music files during installs like good old keygen tools for style.  
 
-![](./images/riders-patcher.png)
+![](./images/riders-patcher.webp)
 
 ### [C#] Delta Patch Generator
 
@@ -172,7 +172,7 @@ Created by Sewer56, licensed under GNU LGPL V3
     - Summary: Bash script for efficient batch compression of images.  
     - Release Date: 2016, 2017, [Source Code](https://github.com/Sewer56/XOS-Image-Compressor).  
 
-![Image](./images/xos-image-compressor.png)
+![Image](./images/xos-image-compressor.webp)
 
 ## General Purpose Libraries
 
@@ -366,7 +366,7 @@ if (!result.Available)
     - Provides integration for popular serializers, such as `MessagePack` & `System.Text.Json`.  
     - Optimised down to assembly/JIT level. Allocation free.  
 
-![](./images/reloaded-messaging.png)
+![](./images/reloaded-messaging.webp)
 
 Among other uses, this library is used in [Reloaded-II](https://reloaded-project.github.io/Reloaded-II/)
 to communicate with mod loader and perform actions like loading and unloading game modifications at runtime.  
@@ -380,7 +380,7 @@ to communicate with mod loader and perform actions like loading and unloading ga
     - Supports Remapping, Hotplugging, Configurator and many other essential features.  
     - Zero allocation.  
 
-![](./images/reloaded-input.png)
+![](./images/reloaded-input.webp)
 
 Screenshot of default configurator application (embeddable in your program) with sample controller bindings.
 
@@ -435,7 +435,7 @@ Includes styles for almost every control in WPF and fits in under 500kB, includi
     - Release Date: 2016, [Source](https://github.com/Sewer56/XOS-Art-Templates)  
     - My work included logo, phone wallpapers, forum banners, announcement images, boot logo, charging logo, OS theme and more.  
 
-![Image](./images/xos-banner.png)
+![Image](./images/xos-banner.webp)
 
 ### [ROM] OxySlim
 
@@ -444,7 +444,7 @@ Includes styles for almost every control in WPF and fits in under 500kB, includi
     - Summary: Custom OxygenOS based Android ROM for the OnePlus 2.  
     - Release Date: 2015, [XDA Forums](https://forum.xda-developers.com/t/unofficial-sewers-mods-a-k-a-gin2jellybean-1-9-9-extended-rc1-2-3-7-addons.1934281/)  
 
-![Image](./images/oxyslim.png)
+![Image](./images/oxyslim.webp)
 
 Notable for being the first stock-based ROM to bring working theme(s) to OxygenOS, and removing OnePlus' Excessive Telemetry (Spying), [which I originally shared some details about here](https://forum.xda-developers.com/t/indefinitely-postponed-oxyslim-23-02-2016-2-2-2.3278169/post-64497485). 
 
@@ -455,7 +455,7 @@ Notable for being the first stock-based ROM to bring working theme(s) to OxygenO
     - Summary: A Custom Android ROM for the Xperia Play based on 2.3.7 stock firmware.  
     - Release Date: 2012, [XDA Forums](https://forum.xda-developers.com/t/unofficial-sewers-mods-a-k-a-gin2jellybean-1-9-9-extended-rc1-2-3-7-addons.1934281/)  
 
-![Image](./images/gin2jellybean.png)
+![Image](./images/gin2jellybean.webp)
 
 A enhanced version of another popular custom ROM on the Xperia Play. Notably this one brought another set of popular enhancements such as skipping tracks by holding volume key, a centred clock and the AC!D Audio Engine pre-baked. Was the first stock-based Multiboot Supported ROM.  
 
@@ -479,7 +479,7 @@ Additional enhancements were available through extra downloadable zips for custo
     - As well as Win32, D3D9/11/12, OGL2/3, GLFW, SDL2 & Vulkan backends other bindings lack.  
     - Operates with minimal code changes/fixes, low maintenance library.  
 
-![](./images/dear-imgui-sharp.png)
+![](./images/dear-imgui-sharp.webp)
 
 DearImGuiSharp is used by my modification of a commercial game [Sonic Riders].  
 
@@ -490,7 +490,7 @@ DearImGuiSharp is used by my modification of a commercial game [Sonic Riders].
     - Summary: Access Dolphin Emulator's Emulated Memory from C# code.  
     - Release Date: 2019, [Source](https://github.com/Sewer56/Dolphin.Memory.Access)  
 
-![](./images/shadow-rpc.png)
+![](./images/shadow-rpc.webp)
 
 Can be used to e.g. show state of Dolphin Emulator's currently played application.  
 
@@ -503,7 +503,7 @@ Can be used to e.g. show state of Dolphin Emulator's currently played applicatio
     - Actively maintained. Supports all latest .NET features including Assembly Trimming etc.  
     - Originally created for [Reloaded-II](https://reloaded-project.github.io/Reloaded-II/).  
 
-![](./images/reloaded.png)
+![](./images/reloaded.webp)
 
 Consists of libraries including but not limited to:
 

@@ -1,6 +1,6 @@
 # Trails in The Sky
 
-![](../images/sora-no-kiseki.png)
+![](../images/sora-no-kiseki.webp)
 
 !!! about
 

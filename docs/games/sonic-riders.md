@@ -1,4 +1,4 @@
-![](./../images/sonic-riders.png)
+![](./../images/sonic-riders.webp)
 
 !!! about
 
@@ -26,10 +26,10 @@
         - and many more... 
 
 Online Multiplayer:
-![](./../images/riders-online-multiplayer.png)
+![](./../images/riders-online-multiplayer.webp)
 
 Gear Editors:
-![](./../images/riders-tweakbox-editors.png)
+![](./../images/riders-tweakbox-editors.webp)
 
 ## Riders Tweakbox API
 
@@ -44,7 +44,7 @@ Gear Editors:
         - Real-time multiplayer status updates
 
 ## Riders Hacking Tools (& Wiki)
-![](./../images/riders-tweakbox-editors.png)
+![](./../images/riders-tweakbox-editors.webp)
 
 ## Riders Hacking Tools (& Wiki)
 
@@ -125,7 +125,7 @@ High level API like this, allows for easy access of various game internals.
     - Provides an API for mods to inject their own inputs.  
     - and much more...
 
-![](./../images/heroes-controller-hook.png)
+![](./../images/heroes-controller-hook.webp)
 
 ## Discord Rich Presence
 
@@ -139,7 +139,7 @@ High level API like this, allows for easy access of various game internals.
         - Supports multiplayer modes, including score tracking.  
         - Time elapsed syncs to stage timer.  
 
-![](./../images/riders-discord-rpc.png)
+![](./../images/riders-discord-rpc.webp)
 
 ## Trick Text Translator
 
@@ -149,7 +149,7 @@ High level API like this, allows for easy access of various game internals.
     - Release Date: Tool unreleased, source release only.  
     - Source Code: [[Available in Riders SDK]](https://github.com/Sewer56/Sewer56.SonicRiders/tree/master/Sewer56.SonicRiders/Parser/TrickSprite).  
 
-![](./../images/riders-trick-text.png)
+![](./../images/riders-trick-text.webp)
 
 ## Prototype 0.931 Restoration
 
@@ -163,7 +163,7 @@ High level API like this, allows for easy access of various game internals.
         - Re-enabled a lot of debug functionality disabled in this build.  
         - A lot of unique bugs, glitches and other minor code features.  
 
-![](./../images/sonic-riders-proto-restore.png)
+![](./../images/sonic-riders-proto-restore.webp)
 
 !!! info "Riders PS2 Tools"
 

@@ -17,7 +17,7 @@ make the library more portable. (e.g. No GC, custom allocators, etc.)
 
 ## Reloaded-II (Mod Loader)
 
-![](./../images/reloaded.png)
+![](./../images/reloaded.webp)
 
 !!! about 
 
@@ -55,7 +55,7 @@ make the library more portable. (e.g. No GC, custom allocators, etc.)
         - Log all files accessed by application.  
         - Log replaced files.  
 
-![](./../images/reloaded-file-redirector.png)
+![](./../images/reloaded-file-redirector.webp)
 
 What is Sonic Heroes loading right now? And what file is it being replaced with?  
 
@@ -80,7 +80,7 @@ What is Sonic Heroes loading right now? And what file is it being replaced with?
         - Currently supports 5 archive formats (and counting!!).  
         - Extensive Unit Tests & asserts for runtime bug avoidance.  
 
-![](./../images/bayonetta-bgm.png)
+![](./../images/bayonetta-bgm.webp)
 
 Imagine adding/removing/replacing files in these archives without requiring any unpacking or repacking, without using any additional disk space and with zero overhead in a way that works even with emulated games.  
 
@@ -98,7 +98,7 @@ Yes, that's a thing now!
         - Supports viewports and docking. You can drag ImGui windows outside game window!!  
         - No Pause on Focus Loss [Universal, for any game].  
 
-![](./../images/imgui-nekopara.png)
+![](./../images/imgui-nekopara.webp)
 
 ## CRI Middleware
 
@@ -122,7 +122,7 @@ Yes, that's a thing now!
         - Log files accessed by application.
         - Replace music in AWB music Archives inside CPKs without using additional disk space, [via an extension mod](https://sewer56.dev/CriFs.V2.Hook.ReloadedII/usage-awb).  
 
-![](./../images/p5r-adachi-mod.png)
+![](./../images/p5r-adachi-mod.webp)
 
 Well, this mod certainly enables some interesting use cases...
 
@@ -137,7 +137,7 @@ Well, this mod certainly enables some interesting use cases...
         - Maximum performance, all code hand tuned for best x64 assembly output.  
             - Faster than original CRI code present in retail games (in all parsing, decompression & descrambling).  
 
-![](./../images/cri-cpk-gui.png)
+![](./../images/cri-cpk-gui.webp)
 
 Included GUI tool for extraction.  
 

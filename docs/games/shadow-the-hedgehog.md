@@ -1,6 +1,6 @@
 # Shadow The Hedgehog
 
-![](./../images/shadow-the-hedgehog.png)
+![](./../images/shadow-the-hedgehog.webp)
 
 !!! info
 
@@ -14,7 +14,7 @@
     - Summary: Rich Presence... for a GameCube Game!  
     - Release Date: 2018 [[Original]](https://github.com/Sewer56/ShadowTheHedgehog-RPC), 2019 [[Current]](https://github.com/Sewer56/ShadowTheHedgehog.RPC.ReloadedII).  
 
-![](./../images/shadow-rpc.png)
+![](./../images/shadow-rpc.webp)
 
 Reading memory from an emulated GameCube game [that works with any emulator version] was an interesting challenge.  
 
@@ -30,7 +30,7 @@ Reading memory from an emulated GameCube game [that works with any emulator vers
     - Caching for improved repacking speeds.  
     - and more...
 
-![](./../images/one-packer-unpacker.png)
+![](./../images/one-packer-unpacker.webp)
 
 ## Sound Effect Packer & Unpacker
 
@@ -39,7 +39,7 @@ Reading memory from an emulated GameCube game [that works with any emulator vers
     - Summary: Import and Export Sound Effects from Xbox version of the game.    
     - Release Date: 2018 [[Source]](https://github.com/Sewer56/PACTool).  
 
-![](./../images/pac-tool.png)
+![](./../images/pac-tool.webp)
 
 ## Documenting Unused Assets
 

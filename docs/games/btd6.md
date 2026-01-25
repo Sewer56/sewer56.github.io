@@ -1,6 +1,6 @@
 # Bloons TD 6
 
-![](./../images/btd6.png)
+![](./../images/btd6.webp)
 
 !!! info
 
@@ -25,7 +25,7 @@
         - And special behaviours based on cost, e.g. Ball of Light.  
 
 
-![](./../images/btd6-salaried.png)
+![](./../images/btd6-salaried.webp)
 
 Top left displays current cash and salary to be paid next round.  
 
@@ -37,4 +37,4 @@ Top left displays current cash and salary to be paid next round.
     - Release Date: 2022 [[Source]](https://github.com/Sewer56/BloonsTD6.Mod.MultiUser).  
     - Allows you to sign in with multiple game accounts without conflicts.  
 
-![](./../images/btd6-multiuser.png)
+![](./../images/btd6-multiuser.webp)

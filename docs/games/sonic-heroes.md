@@ -1,6 +1,6 @@
 # Sonic Heroes
 
-![](./../images/sonic-heroes.png)
+![](./../images/sonic-heroes.webp)
 
 !!! info
 
@@ -34,7 +34,7 @@
     - Changes physics in real time, for testing.   
     - Also supports Sonic Adventure DX & 2.  
 
-![](./../images/heroes-physics-editor.png)
+![](./../images/heroes-physics-editor.webp)
 
 ## Stage Injector
 
@@ -118,7 +118,7 @@ High level API like this, allows for easy access of various game internals.
         - Supports multiplayer modes, including score tracking.  
         - Time elapsed syncs to stage timer.  
 
-![](./../images/heroes-rpc.png)
+![](./../images/heroes-rpc.webp)
 
 ## Free Camera Mod
 
@@ -177,7 +177,7 @@ Multiplayer with custom aspect ratio.
     - Provides an API for mods to inject their own inputs.  
     - and much more...
 
-![](./../images/heroes-controller-hook.png)
+![](./../images/heroes-controller-hook.webp)
 
 ### Cold Boot Time Fix
 !!! about "CRI FileSystem Hook" 
@@ -204,7 +204,7 @@ Multiplayer with custom aspect ratio.
     - Summary: Import and Export Sound Effects from PC & Xbox versions of the game.    
     - Release Date: 2018 [[Source]](https://github.com/Sewer56/PACTool).  
 
-![](./../images/pac-tool.png)
+![](./../images/pac-tool.webp)
 
 ## Level Editor
 

@@ -19,7 +19,7 @@ This page lists the various *original* game related libraries, modifications, re
 
 ## Bloons TD 6
 
-![](./images/btd6.png)
+![](./images/btd6.webp)
 
 !!! about
 
@@ -32,7 +32,7 @@ This page lists the various *original* game related libraries, modifications, re
 
 ## FlatOut 2
 
-![](./images/fo2.png)
+![](./images/fo2.webp)
 
 !!! about
 
@@ -79,7 +79,7 @@ This page lists the various *original* game related libraries, modifications, re
 
 ## Persona 3/4/5 PC
 
-![](./images/p5r.png)
+![](./images/p5r.webp)
 
 !!! about
 
@@ -94,7 +94,7 @@ This page lists the various *original* game related libraries, modifications, re
 
 ## Shadow The Hedgehog
 
-![](./images/shadow-the-hedgehog.png)
+![](./images/shadow-the-hedgehog.webp)
 
 !!! about
 
@@ -109,7 +109,7 @@ This page lists the various *original* game related libraries, modifications, re
 
 ## Sonic Heroes
 
-![](./images/sonic-heroes.png)
+![](./images/sonic-heroes.webp)
 
 !!! about
 
@@ -131,7 +131,7 @@ This page lists the various *original* game related libraries, modifications, re
 
 ## Sonic Riders
 
-![](./images/sonic-riders.png)
+![](./images/sonic-riders.webp)
 
 !!! about
 
@@ -172,7 +172,7 @@ Everyone can enjoy them, even with an unmodded client 💜.
 
 ## Tokyo Xanadu eX+
 
-![](./images/tokyo-xanadu.png)
+![](./images/tokyo-xanadu.webp)
 
 !!! about
 
@@ -183,7 +183,7 @@ Everyone can enjoy them, even with an unmodded client 💜.
 
 ## Trails of Cold Steel
 
-![](./images/sen-no-kiseki.png)
+![](./images/sen-no-kiseki.webp)
 
 !!! about
 
@@ -194,7 +194,7 @@ Everyone can enjoy them, even with an unmodded client 💜.
 
 ## Trails in The Sky
 
-![](./images/sora-no-kiseki.png)
+![](./images/sora-no-kiseki.webp)
 
 !!! about
 

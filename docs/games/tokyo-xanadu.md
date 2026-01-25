@@ -1,4 +1,4 @@
-![](../images/tokyo-xanadu.png)
+![](../images/tokyo-xanadu.webp)
 
 !!! about
 
