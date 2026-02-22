@@ -58,7 +58,7 @@ means I can't always respond right away 😔; I may be 💤.
 
 So I've been investing in building some LLM tooling to help me with these aspects.
 
-!!! info "Why existing tools don't work for me"
+!!! question "Why existing tools don't work for me?"
 
     OpenCode idles at 300MB of private bytes, and 500MB during usage.
     And that's in server mode ***WITHOUT the TUI***.
@@ -204,16 +204,16 @@ to support that case too. However, this isn't so trivial.
 - `TinyVec<[Box<str>; 3]>` uses 56 bytes per array/slice entry; but usually only 1 entry is used.
 - `Box<[Box<str>]>` uses 16 bytes per array/slice entry, but also an extra 16 entry for slice info itself on heap.
 
-Now consider the fact that the median/mean env name length is... ***16 bytes***.
+Now consider the fact that the median/mean env name length is... ***16 bytes***.<br/>
 ***Way more memory is used for the handles than for the data.***
 
 A regular string reference is expensive enough; but with small arrays, doubly so!!
 
-| layout                   | bytes per 1-key row (requested) | total usable bytes (`96` providers, glibc) |
-| ------------------------ | ------------------------------: | -----------------------------------------: |
-| `TinyVec<[Box<str>; 1]>` |                            `32` |                                    `3,568` |
-| `TinyVec<[Box<str>; 3]>` |                            `56` |                                    `5,384` |
-| `Box<[Box<str>]>`        |                `32` (`16 + 16`) |                                    `4,056` |
+| layout                   | bytes per 1-key row (requested) | total usable bytes (glibc) |
+| ------------------------ | ------------------------------: | -------------------------: |
+| `TinyVec<[Box<str>; 1]>` |                            `32` |                    `3,568` |
+| `TinyVec<[Box<str>; 3]>` |                            `56` |                    `5,384` |
+| `Box<[Box<str>]>`        |                `32` (`16 + 16`) |                    `4,056` |
 
 ## The Core Idea
 
@@ -452,32 +452,25 @@ We'll save in other places in the future too 😉, but I might aswell
 write the library now, instead of later going to old code and rewrite
 it for the library.
 
-## Benchmarks
+## Extra Benchmarks
 
 !!! tip "Full benchmark tables and dataset details ([full README][lite-strtab-readme])"
 
     This is a short summary of the crate info.
 
-!!! info "Memory numbers are measured with glibc `malloc_usable_size` on Linux."
+What about a larger dataset?
 
-    This accounts for allocator induced alignment and metadata overhead,
-    which is useful for real-world memory accounting.
-
-Datasets used:
-
-- **YakuzaKiwami**: 4,650 relative game paths, 238,109 bytes
-- **EnvKeys**: 109 environment variable names, 1,795 bytes
-- **ApiUrls**: 90 API URLs, 3,970 bytes
+- **YakuzaKiwami** (4,650 relative game paths, 238,109 bytes).
 
 ### String reference cost in structs
 
-!!! tip "You can store references to strings very very cheaply!!"
+!!! tip "You can store references to strings very very cheaply!! 💜"
 
-| Dataset      | `StringId<u16>` (`StringTable`) | `Box<str>` fields (`Box<[Box<str>]>`) | `String` fields (`Vec<String>`) |
-| ------------ | ------------------------------: | ------------------------------------: | ------------------------------: |
-| YakuzaKiwami |                       `9,300 B` |                            `74,400 B` |                     `111,600 B` |
-| EnvKeys      |                         `218 B` |                             `1,744 B` |                       `2,616 B` |
-| ApiUrls      |                         `180 B` |                             `1,440 B` |                       `2,160 B` |
+| Representation    |       Bytes |    Ratio |
+| ----------------- | ----------: | -------: |
+| `lite-strtab`     |   `9,300 B` |  `1.00x` |
+| `Box<[Box<str>]>` |  `74,400 B` |  `8.00x` |
+| `Vec<String>`     | `111,600 B` | `12.00x` |
 
 For 4,650 strings...
 
@@ -495,19 +488,28 @@ String references in your structs cost **2 bytes instead of 16-24**.
 
 !!! tip "Due to less alignment, we also save some space on the heap"
 
-| Dataset      | `lite-strtab` | `Box<[Box<str>]>` | `Vec<String>` |
-| ------------ | ------------: | ----------------: | ------------: |
-| YakuzaKiwami |   `256,736 B` |       `272,528 B` |   `272,640 B` |
-| EnvKeys      |     `2,240 B` |         `2,728 B` |     `2,888 B` |
-| ApiUrls      |     `4,352 B` |         `4,672 B` |     `4,736 B` |
-
-| Dataset      | `lite-strtab` | `Box<[Box<str>]>` | `Vec<String>` |
-| ------------ | ------------: | ----------------: | ------------: |
-| YakuzaKiwami |          `1x` |           `1.06x` |       `1.06x` |
-| EnvKeys      |          `1x` |           `1.22x` |       `1.29x` |
-| ApiUrls      |          `1x` |           `1.07x` |       `1.09x` |
+| Representation    |       Bytes |   Ratio |
+| ----------------- | ----------: | ------: |
+| `lite-strtab`     | `256,736 B` | `1.00x` |
+| `Box<[Box<str>]>` | `272,528 B` | `1.06x` |
+| `Vec<String>`     | `272,640 B` | `1.06x` |
 
 A neat side effect to more manual alignment control.
+
+!!! info "Heap memory numbers were measured with glibc `malloc_usable_size` on Linux."
+
+    This accounts for allocator induced alignment overhead,
+    we're keeping it real ❤️‍🔥
+
+### Total memory usage (struct refs + heap)
+
+!!! tip "Based on the two tables above"
+
+| Representation    | Struct refs |  Heap alloc | Total bytes |   Ratio |
+| ----------------- | ----------: | ----------: | ----------: | ------: |
+| `lite-strtab`     |   `9,300 B` | `256,736 B` | `266,036 B` | `1.00x` |
+| `Box<[Box<str>]>` |  `74,400 B` | `272,528 B` | `346,928 B` | `1.30x` |
+| `Vec<String>`     | `111,600 B` | `272,640 B` | `384,240 B` | `1.44x` |
 
 ### Read performance (YakuzaKiwami, sequential pass + AHash)
 
