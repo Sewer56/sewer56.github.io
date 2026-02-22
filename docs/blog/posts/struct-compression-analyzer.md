@@ -5,14 +5,14 @@ draft: false
 categories:
   - Compression
   - Texture Compression
-  - Texture Compression in Nx2.0
+  - Texture Compression in R3A
 ---
 
 # A Program for Helping Create Lossless Transforms
 
 !!! info "Making the whole process easier with a tool."
 
-Part 3 of [Texture Compression in Nx2.0 series][compression-nx20].
+Part 3 of [Texture Compression in R3A series][compression-nx20].
 
 This one is a bit of a detour; in the previous parts we've talked about:
 

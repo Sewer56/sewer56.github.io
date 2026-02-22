@@ -34,7 +34,7 @@ Items within each category are shown in roughly chronological order.
     - Idea is you can rearrange existing data to make it more compressible.  
         - This library makes lets you define and test transforms with `.yaml`.  
     - Used in [dxt-lossless-transform] to determine which BC7 'modes' (file chunks) are better rearranged.  
-    - Used in WIP successor of [Nexus .nx Archive Format](#c-nexus-nx-archive-format) to determine if to apply a transform.  
+    - Used in [R3A](https://github.com/Sewer56/sewer56-archives-r3a) to determine if to apply a transform.  
 
 ### [Rust] Lossless Transform Utils: Check if Data is More Compressible
 
@@ -45,7 +45,7 @@ Items within each category are shown in roughly chronological order.
     - Idea is you can rearrange existing data to make it more compressible.  
         - This library makes it possible to determine if the rearrangement is worthwhile! 
     - Used in [dxt-lossless-transform] to determine which BC7 'modes' (file chunks) are better rearranged.  
-    - Used in WIP successor of [Nexus .nx Archive Format](#c-nexus-nx-archive-format) to determine if to apply a transform.  
+    - Used in [R3A](https://github.com/Sewer56/sewer56-archives-r3a) to determine if to apply a transform.  
 
 ### [Rust] LZMA-SDK Bindings
 

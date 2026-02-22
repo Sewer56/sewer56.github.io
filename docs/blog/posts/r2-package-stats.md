@@ -172,10 +172,10 @@ say, the entirety of a modding website; you'll find the file size and count patt
 ## Extra Links
 
 You can find the raw data [here](./assets/mod-stats+analysis.7z).  
-The code that was used to generate it is available in the 'research' folder of [the new archive format](https://github.com/Sewer56/sewer56-archives-nx).
+The code that was used to generate it is available in the 'research' folder of [the new archive format](https://github.com/Sewer56/sewer56-archives-r3a).
 
 [Reloaded3]: https://reloaded-project.github.io/Reloaded-III/
 [Reloaded-II]: https://github.com/Reloaded-Project/Reloaded-II
 [Reloaded-II.Index]: https://github.com/Reloaded-Project/Reloaded-II.Index
 [bc1-compression]: ./bc1-compression.md
-[new archive format]: https://sewer56.dev/sewer56-archives-nx/
+[new archive format]: https://sewer56.dev/sewer56-archives-r3a/

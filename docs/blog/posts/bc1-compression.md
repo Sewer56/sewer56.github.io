@@ -4,7 +4,7 @@ comments: true
 categories:
   - Compression
   - Texture Compression
-  - Texture Compression in Nx2.0
+  - Texture Compression in R3A
 ---
 
 # Shrinking Old Game Texture Sizes by 10%, at ~60GB/s
@@ -13,7 +13,7 @@ categories:
 
 !!! info "Without a loss in quality."
 
-Part 1 of [Texture Compression in Nx2.0][compression-nx20] series.
+Part 1 of [Texture Compression in R3A][compression-nx20] series.
 
 So I'm in the process of building an [archive format] (👈 WIP) suitable for game modding as part
 of the [Reloaded3] project.
@@ -514,7 +514,7 @@ Other future posts might cover:
 The current code for the transforms can be found at [dxt-lossless-transform] (GitHub).
 It is a heavy work in progress currently, and is not finalized code.
 
-[archive format]: https://sewer56.dev/sewer56-archives-nx/
+[archive format]: https://sewer56.dev/sewer56-archives-r3a/
 [Reloaded3]: https://reloaded-project.github.io/Reloaded-III/
 [reloaded redirector]: https://reloaded-project.github.io/reloaded.universal.redirector/
 [usvfs]: https://github.com/ModOrganizer2/usvfs

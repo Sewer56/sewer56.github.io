@@ -5,14 +5,14 @@ draft: true
 categories:
   - Compression
   - Texture Compression
-  - Texture Compression in Nx2.0
+  - Texture Compression in R3A
 ---
 
 # BC7 Transform
 
 !!! info "Will my transform make data more compressible?"
 
-Part 4 of [Texture Compression in Nx2.0 series][compression-nx20] series.
+Part 4 of [Texture Compression in R3A series][compression-nx20] series.
 
 <!-- more -->
 
