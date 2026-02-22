@@ -31,16 +31,12 @@ Something you load once, keep around for a while, and query every once in a whil
 
 ## Motivation
 
-!!! tip "I've been building a lightweight LLM library recently"
-
-    Mostly so I can:
-
-    - Keep all my repositories up to date as I evolve project templates
-    - Provide ***basic*** tech support when I am asleep
-
 As you may know, I have solo dev'd 200+ projects (very few are forks).
 
-![Screenshot showing 200+ solo GitHub projects][github-repo-count-200-plus-image]
+<figure markdown="span">
+  ![Screenshot showing 200+ solo GitHub projects][github-repo-count-200-plus-image]
+  <figcaption>(nevermind the ones *not* on my account...)</figcaption>
+</figure>
 
 My more recent ones made in the last 2-3 years share a common layout/template.<br/>
 [And even a nice Rust manual!][reloaded-rust-manual]
@@ -48,22 +44,23 @@ My more recent ones made in the last 2-3 years share a common layout/template.<b
 However, keeping all of these repositories up to date has been difficult; you make
 one template change, and now off you go patching 30+ repos. Oof!
 
-Tech support is a similar story; I'm mostly a solo dev, and questions from users
-needing help are a daily occurrence, all hours of the day. Unfortunately that
-means I can't always respond right away 😔; I may be 💤.
+Tech support is a similar story; I'm mostly solo (unfortunately), and questions from users
+needing help are a daily occurrence, all hours of the day. That
+means I can't always respond right away 😔; I may be asleep.
 
 !!! info "I usually aim to respond within 10 minutes."
 
     If I don't reply immediately, I might forget. Even though it's all unpaid work.
 
-So I've been investing in building some LLM tooling to help me with these aspects.
+So I've been investing in building some LLM-based tooling to help me with these aspects.<br/>
+Help me migrate repos and catch questions while I'm sleeping 💤.
 
 !!! question "Why existing tools don't work for me?"
 
-    OpenCode idles at 300MB of private bytes, and 500MB during usage.
+    Resource usage. OpenCode idles at 300MB of private bytes, and 500MB in use.<br/>
     And that's in server mode ***WITHOUT the TUI***.
 
-    Other non-native tools; almost all built on TS or Python, are similar.<br/>
+    Other tools; almost all non-native, built on TS or Python, are similar.<br/>
     Including those built by nearly half a trillion companies (e.g. `claude`).
 
 I'm going for ~1MB instead.
