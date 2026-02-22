@@ -1,0 +1,1 @@
+Use British English spelling: behaviour, optimise, localisation, colour, centre, etc. except code blocks or coding terms.
