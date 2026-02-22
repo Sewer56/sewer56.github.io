@@ -176,6 +176,15 @@ Created by Sewer56, licensed under GNU LGPL V3
 
 ## General Purpose Libraries
 
+### [Rust] Memory-Efficient String Table for Read-Only Data
+
+!!! about "lite-strtab"
+
+    - Summary: Memory-efficient string table for large read-only string collections.  
+    - Release Date: February 2026, [Source](https://github.com/Sewer56/lite-strtab)  
+    - Reduces memory consumption by storing UTF-8 bytes in one contiguous buffer and replacing per-string handles with compact IDs.  
+    - In the typical setup (`StringId<u16>`), per-reference size drops from 16-24 bytes (`String`/`Box<str>`) to 2 bytes, while read performance stays near `Vec<String>` / `Box<[Box<str>]>`.  
+
 ### [Nix] Rust Windows GNU Helper Flake
 
 !!! about "rust-windows-gnu-helper-flake"

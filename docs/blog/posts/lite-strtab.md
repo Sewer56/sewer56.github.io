@@ -9,7 +9,7 @@ categories:
   - LLM
 ---
 
-# Sometimes I Need to Keep a Lot of Immutable Strings Around, So I Built lite-strtab
+# Sometimes I Need to Store a Lot of Strings Efficiently, So I Built lite-strtab
 
 !!! info "This post is about a very specific problem."
 
